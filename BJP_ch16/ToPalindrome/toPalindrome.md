@@ -6,7 +6,7 @@ For example, if a variable called _list_ contains the following sequence:
 
 And we make the following call:
 
-`list.palindrome();`
+`list.toPalindrome();`
 
 After the line gets executed _list_ stores the following values:
 
