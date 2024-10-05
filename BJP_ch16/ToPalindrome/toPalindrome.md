@@ -1,0 +1,26 @@
+Write a method **toPalindrome** that appends to a list all its nodes <u>before the last one</u>, but in reverse order, such that the list becomes a palindrome.
+
+For example, if a variable called _list_ contains the following sequence:
+
+`[3, 8, 10, 11]`
+
+And we make the following call:
+
+`list.palindrome();`
+
+After the line gets executed _list_ stores the following values:
+
+`[3, 8, 10, 11, 10, 8, 3]`
+
+If the list is originally empty or contains only one node, executing the method does not change it.
+
+Assume that you are adding this method to the LinkedIntList class as defined below:
+
+```
+public class LinkedIntList {
+    private ListNode front;   // null for an empty list
+    ...
+    
+    // your code goes here
+}
+```

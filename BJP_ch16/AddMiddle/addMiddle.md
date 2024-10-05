@@ -8,7 +8,7 @@ And we make the following call:
 
 `boolean success = list.addMiddle(20);`
 
-After the line gets executed the variable _success_ is set to **true** and the list stores the following values:
+After the line gets executed the variable _success_ is set to **true** and _list_ stores the following values:
 
 `[3, 8, 10, 20, 11, 5, 12]`
 
@@ -16,7 +16,7 @@ However if the variable _list_ contains the following sequence:
 
 `[3, 8, 10, 11, 5]`
 
-The same line of code results in the variable _success_ set to **false** and the list remains unchanged.
+The same line of code results in the variable _success_ set to **false** and _list_ remains unchanged.
 
 Assume that you are adding this method to the LinkedIntList class as defined below:
 
