@@ -5,7 +5,7 @@ import org.junit.Test;
 
 public class PalindromeTests {
     @Test
-    public void testExampleTrue() {
+    public void testExample() {
         LinkedIntListEx list = new LinkedIntListEx(3, 8, 10, 11);
         list.toPalindrome();
         assertEquals("[3, 8, 10, 11, 10, 8, 3]", list.toStringShort());

@@ -1,4 +1,4 @@
-Write a method **toPalindrome** that appends to a list all its nodes <u>before the last one</u>, but in reverse order, such that the list becomes a palindrome.
+Write a method **toPalindrome** that appends to a list all but its last node. They are appended in reverse order, such that the list becomes a palindrome.
 
 For example, if a variable called _list_ contains the following sequence:
 
