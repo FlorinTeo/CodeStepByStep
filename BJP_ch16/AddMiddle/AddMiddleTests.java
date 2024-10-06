@@ -10,7 +10,6 @@ public class AddMiddleTests {
     public void testExampleTrue() {
         LinkedIntListEx list = new LinkedIntListEx(3, 8, 10, 11, 5, 12);
         boolean success = list.addMiddle(20);
-        System.out.println(list);
         assertTrue(success);
         assertEquals("[3, 8, 10, 20, 11, 5, 12]", list.toStringShort());
     }
